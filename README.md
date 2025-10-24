@@ -20,8 +20,6 @@
 - **Expected target column:** `total_score`
 - **Assumption:** All feature columns are either numeric or will be one‑hot encoded by the notebook.
 
-> If your CSV has different column names, update `TARGET_COL` inside the notebook.
-
 ---
 
 ## 🧹 Data Preparation (as implemented in the notebook)
@@ -64,7 +62,7 @@ It also includes:
 - A scatter plot of **Actual vs Predicted** on the test set.
 - A coefficient table (sorted) to highlight most influential features.
 
-> Exact numbers depend on your CSV and preprocessing outcome.
+
 
 ---
 
@@ -125,5 +123,3 @@ It also includes:
 
 ---
 
-## 📜 License
-This project is for educational use in CS435/471. If you plan to reuse or publish beyond coursework, please include proper credit and verify the dataset’s original license on Kaggle.
